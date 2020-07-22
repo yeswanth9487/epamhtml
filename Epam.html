@@ -1,0 +1,144 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	
+	.centerContainer
+	{
+		border-style: solid;
+		width:305px;
+		position: absolute;
+		text-align:center;
+		left:40%;
+		top:20%;
+	}
+	.inpu{
+  	width: 90%;
+ 	padding: 12px 20px;
+  	margin: 0px 0;
+  	border-radius: 10px;
+  	box-sizing: border-box;
+	}
+	.loginHeader
+	{
+		border-style: inset;
+		background-color:#43C6DB;
+		text-align:center;
+		width:287px;	
+		height:20px;
+		color: white;
+		line-height: 20px;
+		font-size: 17px;
+		display: inline-block;
+		padding: 8px; 
+	}
+	.button 
+	{
+ 		background-color: #43C6DB;
+		width: 280px;	
+		padding: 12px; 
+		border: none;
+  		border-radius: 10px;
+  		box-sizing: border-box;
+		margin: 5px 0;
+		color: white; 
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 17px;
+		line-height: 20px;
+	}
+	.additional{	
+		width: 250px;
+		padding: 12px;
+		border: none;
+		border-radius: 4px;	
+		margin: 5px 0;
+		opacity: 0.85;
+		display: inline-block;
+		font-size: 17px;
+		line-height: 20px;
+		text-decoration: none; 
+	}
+	.left {
+   		 text-align: left;
+   		 float: left;
+	}
+	.right{
+		text-align:right;
+		float:right;
+	}	
+	.fb {
+  		background-color: #3B5998;
+		color: white;
+	}
+	.btn {
+  		width: 80%;
+  		padding: 12px;
+  		border: none;
+  		border-radius: 4px;
+  		margin: 5px 0;
+  		opacity: 0.85;
+  		display: inline-block;
+  		font-size: 17px;
+  		line-height: 20px;
+  		text-decoration: none;
+	}	
+	.google {
+  		background-color: #dd4b39;
+  		color: white;
+	}	
+	.epam{
+		  background-color: FBE52B;
+		  color: white;
+		  height:20px;
+		  color: white;
+		  line-height: 20px;
+		  font-size: 17px;
+		  display: inline-block;
+		  padding: 8px;
+		}
+		.separator {
+    			display: flex;
+    			align-items: center;
+			text-align: center;
+		}
+		.separator::before, .separator::after {
+    			content: '';
+    			flex: 1;
+    			border-bottom: 1px solid #000;
+		}
+		.separator::before {
+    			margin-right: .25em;
+		}
+		.separator::after {
+    		margin-left: .25em;
+		}
+</style>
+
+</head>
+<body>
+	
+	<center>
+	<div class=centerContainer >	
+	<div class="loginHeader" >Sign In</div><br><br>
+		 <input class=inpu type="text" placeholder="mail@example.com                          &#9993" name="username" ><br><br>
+		 <input class=inpu type="password" placeholder="password                                          &#128274" name="password" ><br><br>
+		<input type="submit" value="SIGN IN" class=button><br><br>
+	<a href="#" class=left style="text-decoration:none; color:gray;">Forget your Password?</a><a href="#" class=right style="text-decoration:none;color:gray;">Register</a>
+	<br><br>
+	<div class="separator">OR</div>
+	 <div class="col">
+        		<a href="#" class="fb btn"><i class="fa fa-facebook fa-fw"></i>
+         </a>
+		<a href="#" class="google btn"><i class="fa fa-google fa-fw">
+          </i> 
+        </a>
+		<a href="#" class=" epam additional"> < EPAM LOGIN > </a>
+	      </div>
+	</div>
+	</center>
+
+
+</body>
+</html>
